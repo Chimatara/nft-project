@@ -1,0 +1,348 @@
+.hero1-section {
+    padding: 30px 35px;
+    margin-bottom: 40px;
+    margin-top: 48px;
+    background: url("https://nftb.io/static/img/src/bg-front-hero-left.png") no-repeat bottom -100px left, url("https://nftb.io/static/img/src/bg-front-hero-right.png") no-repeat top right 5%, #000;
+}
+
+.nft-image-container {
+    position: relative;
+}
+
+.nft-image-container > button {
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    right: 10px;
+    width: 56px;
+    height: 56px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 50%;
+    color: white;
+
+}
+
+.vlad-image-container {
+    padding: 3px;
+    background: linear-gradient(-40deg,#de04ff,#18d3fd);
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    border-radius: 50%;
+    position: relative;
+    object-fit:contain;
+}
+
+/* .vlad-image-container:after{
+    content: url("https://nftb.io/static/img/icons/checkmark-verified.svg");
+    position: absolute;
+    top: 30px;
+    right: 1px;
+} */
+
+.nft-image-container > button span {
+    font-size: 32px;
+}
+
+.nft-image {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.small-bnb-image {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    /* z-index: 1; */
+}
+.artwork-info > h4 {
+    font-family:"Bodoni 72 Oldstyle","Times New Roman",Times,sans;
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 400;
+    margin: 0;
+    word-break: break-word;
+    color: white;
+    
+}
+
+.grey-intense {
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.625;
+    color: #acacac;
+}
+
+.vlad-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.vlad-image-container:after{
+    content: url("https://nftb.io/static/img/icons/checkmark-verified.svg");
+    position: absolute;
+    top: 30px;
+    right: 1px;
+}
+
+.middle-section-container {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+}
+
+.middle-section-container > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    min-height: 44px;
+    padding-right: 59px;
+    
+}
+
+.grey-opac {
+    color: #f1f1f1;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.special-text {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal
+}
+
+.grey-medium {
+    font-size: 15px;
+    color: #acacac;
+    padding-right: 3px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .featured-g-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        align-items: center;
+    }
+
+    .featured-artwork {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        align-items: center;
+        position: relative;
+    }
+
+    .artwork-info {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .aside-div {
+        display: none;
+    }
+
+
+
+}
+ 
+
+@media only screen and (min-width: 1200px) {
+
+    .aside-div {
+        display: block;
+    }
+
+    .hero1-section {
+        padding: 30px 0 72px;
+        margin-bottom: 40px;
+        margin-top: -48px;
+        background: url("https://nftb.io/static/img/src/bg-front-hero-left.png") no-repeat bottom -100px left, url("https://nftb.io/static/img/src/bg-front-hero-right.png") no-repeat top right 5%, #000;
+    }
+
+    .hero-container {
+        width: 100%;
+        max-width: 1496px;
+        margin: 0 auto;
+    }
+
+    .featured-artwork-properties {
+        padding-top: 20px;
+        color: white;
+        padding-left: 100px;
+        padding-right: 100px;
+        box-sizing: border-box;
+    }
+
+    .featured-artwork {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        grid-gap: 20px;
+        align-items: center;
+        position: relative;
+    }
+
+    .nft-image-container {
+        position: relative;
+    }
+
+    .small-bnb-image {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        /* z-index: 1; */
+    }
+
+    .nft-image {
+        /* position: absolute;
+        top: 0;
+        left: 0; */
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .nft-image-container > button {
+        position: absolute;
+        z-index: 2;
+        bottom: 20px;
+        right: 10px;
+        width: 56px;
+        height: 56px;
+        background-color: rgba(0,0,0,.5);
+        border-radius: 50%;
+        color: white;
+
+    }
+
+    .nft-image-container > button span {
+        font-size: 32px;
+    }
+
+    .featured-g-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 24px;
+    }
+
+    .artwork-info {
+        width: 100%;
+        height: 100%;
+    }
+
+    .artwork-info > h4 {
+        font-family:"Bodoni 72 Oldstyle","Times New Roman",Times,sans;
+        font-size: 76px;
+        line-height: 1;
+        font-weight: 400;
+        margin: 0;
+        word-break: break-word;
+        color: white;
+        
+    }
+    .artwork-heading {
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+    }
+
+    .carosel {
+        width:100%;
+        height: 200px;
+        background-color:slateblue;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 80px;
+    }
+
+    .middle-section-container {
+        display: flex;
+        margin-top: 32px;
+        margin-bottom: 25px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        z-index: 1;
+    }
+
+    .middle-section-container > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        min-height: 44px;
+        padding-right: 59px;
+        
+    }
+
+    .vlad-image-container {
+        padding: 3px;
+        background: linear-gradient(-40deg,#de04ff,#18d3fd);
+        width: 44px;
+        height: 44px;
+        margin-right: 10px;
+        border-radius: 50%;
+        position: relative;
+        object-fit:contain;
+    }
+
+    .vlad-image-container:after{
+        content: url("https://nftb.io/static/img/icons/checkmark-verified.svg");
+        position: absolute;
+        top: 30px;
+        right: 1px;
+    }
+
+    .vlad-image {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+
+    /* 
+    .aside-div {
+
+    } */
+
+
+    .grey-opac {
+        color: #f1f1f1;
+        opacity: 0.6;
+    }
+
+    .grey-intense {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 1.625;
+        color: #acacac;
+    }
+
+    .grey-medium {
+        font-size: 18px;
+        color: #acacac;
+        padding-right: 3px;
+    }
+
+    .special-text {
+        font-size: 16px;
+        font-weight: 600;
+        font-style: normal
+    }
+
+}

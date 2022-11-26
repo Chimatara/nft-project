@@ -1,0 +1,115 @@
+.exchange-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.exchange-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.trade-image-container {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding: 3px;
+    margin-right: 5px;
+
+    border-radius: 50%;
+    background: linear-gradient(-40deg,#de04ff,#18d3fd);
+}
+
+.trader-image {
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.verified {
+    content: url("https://nftb.io/static/img/icons/checkmark-verified.svg");
+    width:5px;
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+    width: 2px;
+    z-index: 5;
+}
+
+@media only screen and (min-width: 768px) {
+    .exchange-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .exchange-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+    .trade-image-container {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        padding: 2px;
+        margin-right: 5px;
+
+        border-radius: 50%;
+        background: linear-gradient(-40deg,#de04ff,#18d3fd);
+    }
+
+    .trader-image {
+        width:100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: contain;
+    }
+
+    .verified {
+        content: url("https://nftb.io/static/img/icons/checkmark-verified.svg");
+        position: absolute;
+        bottom: 2px;
+        right: 0px;
+        width:20px;
+        z-index: 5;
+    }
+
+}
+
+
+@media only screen and (min-width:1200px)  {
+    .exchange-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .trade-image-container {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        padding: 3px;
+        margin-right: 5px;
+        border-radius: 50%;
+        background: linear-gradient(-40deg,#de04ff,#18d3fd);
+    }
+
+    .trader-image {
+        width:100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: contain;
+    }
+
+    .verified {
+        content: url("https://nftb.io/static/img/icons/checkmark-verified.svg");
+        position: absolute;
+        bottom: 2px;
+        right: 5px;
+        width:20px;
+        z-index: 5;
+    }
+
+}

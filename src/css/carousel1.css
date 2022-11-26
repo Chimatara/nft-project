@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#slider {
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.container {
+    width: 1600px;
+    margin: auto;
+}
+
+.subcontainer {
+    width: 85%;
+    margin: auto;
+}
+
+.controller {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.controller h3{
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+#controls i {
+    color: white;
+    font-size: 1rem;
+   
+}
+
+.previous, .next {
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    transition: 0.7s ease-in-out; 
+    border: 3px solid white;
+    box-shadow: 0 0 5px #bbb;
+    background-color: #010101;
+
+}
+
+.previous:hover, .next:hover{
+    border: 3px solid grey;
+}
+
+.my-slider {
+    display: flex;
+    width:100%;
+    margin-bottom: 10px;
+}
+ 
+
+/* 
+.grid {
+ width: 50%;
+ object-fit: contain;
+} */
+
+
+/* 
+.img-1, .img-2, .img-3, .img-4, .img-5{
+    width: 50%;
+    background-position: center;    
+    background-size: cover;
+    
+}
+
+
+ 
+.img-1 {
+    background-image: url("https://media.nftb.io/media/thumbnails/nfts/cF2Ks15gjiHGqXZQQOytcX1649855615685.jpg");
+}
+
+.img-2 {
+    background-image: url("https://media.nftb.io/media/thumbnails/nfts/xDFRlUmRCkXBnUfNWvPeEW1650009038605.png");
+    
+}
+
+.img-3{
+    background-image: url("https://media.nftb.io/media/thumbnails/nfts/vuNurGDXWxTg2LNjSL1FsO1652547768231.jpg");
+}
+
+.img-4{
+    background-image: url("https://media.nftb.io/media/thumbnails/nfts/mhGEVmLB6l2C98mA5mlYmd1650011441460.png");
+}
+
+ */

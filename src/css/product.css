@@ -1,0 +1,363 @@
+.product-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    background-color:white;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    /* box-shadow: 5px 3px rgb(200, 200, 200); */
+    box-shadow: 0px 20px 20px -10px rgba(0, 0, 0, 0.5);
+    transition: transform .125s ease-in-out;
+}
+
+.product-container:hover {
+    transform: translateY(-4px);
+}
+
+.product-container:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 48px;
+    height: 100%;
+    pointer-events: none;
+    background: url("https://nftb.io/static/img/src/card-shadow-right.png");
+    left: 100%;
+}
+
+.product-info{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-info1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.like-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-info2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bigImage-container {
+    height:65%;
+    position: relative;
+}
+
+
+.product-info3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.video-object {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.creator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creator-image-container {
+    width: 30px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-right: 7px;
+    position: relative;
+}
+
+.creator-image {
+    border-radius: 50%;
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
+
+.center-image-container {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.center-image {
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.small-grey {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.mid-black-text {
+    font-size:0.9rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.creator-container p:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.owner-container {
+    display: flex;
+}
+
+.center-image-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 7px;
+}
+
+.mini-verified {
+    content: url("https://nftb.io/static/img/icons/checkmark-verified.svg");
+    position: absolute;
+    bottom: 1px;
+    left: 20px;
+
+}
+
+.product-info2-alt{
+    display: flex;
+}
+
+.video-object {
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.bigImage-container > span {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.product-info2-alt{
+    display: flex;
+    width: 100%;
+    /* object-fit: contain; */
+}
+
+.word-breaker {
+    word-break: break-all;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+@media only screen and (min-width: 768px) {
+    .product-container {
+        display: flex;
+        flex-direction: column;
+        width: 47%;
+        height: auto;
+        margin-bottom: 20px;
+        background-color:white;
+        position: relative;
+        border-radius: 5px;
+        cursor: pointer;
+        /* box-shadow: 5px 3px rgb(200, 200, 200); */
+        box-shadow: 0px 20px 20px -10px rgba(0, 0, 0, 0.5);
+        transition: transform .125s ease-in-out;
+    }
+
+    .word-breaker {
+        word-break: break-all;
+    }
+    
+}
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+@media only screen and (min-width: 1200px) {
+
+    .product-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+    background-color:white;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    /* box-shadow: 5px 3px rgb(200, 200, 200); */
+    box-shadow: 0px 20px 20px -10px rgba(0, 0, 0, 0.5);
+    transition: transform .125s ease-in-out;
+}
+
+.product-container:hover {
+    transform: translateY(-4px);
+}
+
+.product-container:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 48px;
+    height: 100%;
+    pointer-events: none;
+    background: url("https://nftb.io/static/img/src/card-shadow-right.png");
+    left: 100%;
+}
+
+.product-info{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-info1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.like-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-info2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bigImage-container {
+    height:65%;
+    position: relative;
+}
+
+
+.product-info3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.video-object {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.creator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creator-image-container {
+    width: 30px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-right: 7px;
+    position: relative;
+}
+
+.creator-image {
+    border-radius: 50%;
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
+
+.center-image-container {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.center-image {
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.small-grey {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.mid-black-text {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.creator-container p:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.owner-container {
+    display: flex;
+}
+
+.center-image-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 7px;
+}
+
+.mini-verified {
+    content: url("https://nftb.io/static/img/icons/checkmark-verified.svg");
+    position: absolute;
+    bottom: 1px;
+    left: 20px;
+
+}
+
+.product-info2-alt{
+    display: flex;
+}
+
+.video-object {
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.bigImage-container > span {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.word-breaker {
+    word-break: break-all;
+}
+
+}
+
+    

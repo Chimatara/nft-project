@@ -1,0 +1,319 @@
+.hero3-container {
+    background-color: #0F1120;
+    height: auto;
+    padding: 50px 0;  
+}
+
+/* .hero3 {
+    display: flex;
+    flex-direction: column;
+}  */
+
+.nftb-launch {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nftb-launch > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.nftb-launch > span {
+    display: block;
+    padding: 20px;
+    margin-top: 2rem;
+    color:black;
+    width: 40%;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.soccer-and-warp {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    padding: 10px 20px;
+
+}
+ 
+.soccer-image-container {
+    width: 100%;
+    height: 50%;
+    /* background-image: url("https://nftb.io/static/img/pages/launchpad/ido/warp-2/cover.png");
+    background-repeat:no-repeat;
+    background-size: cover; */
+    background-color: transparent;
+    border-radius: 1rem 1rem 0 0;
+    /* padding: 5px 16px; */
+    position: relative;
+}
+
+.soccer-image-container > img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+     /*position: relative; */
+}
+
+.soccer-image-container:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(180deg,rgba(33, 39, 73, 0.2),#06070d 101.94%);
+
+}
+
+.second-section {
+    background-color: #000000;
+    padding: 0 20px 20px 20px;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 2px 8px 40px rgb(251 78 255 / 20%);
+}
+
+.ido-date-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-ido {
+    display: flex;
+    align-items: flex-start;
+}
+
+.ido-date-container > span {
+    color: grey;
+}
+
+.warp-warp{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.soccer-crypto {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.warp {
+    width:100%;
+}
+
+.warp-image-container {
+    width: 100%;
+    height:50%;
+    background-image: url("https://nftb.io/static/img/pages/launchpad/ido/airtnt/cover.png");
+    border-radius: 1rem 1rem 0 0;
+    background-size: cover;
+    position: relative;
+}
+
+.warp-image-container > img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;   
+}
+
+.warp-image-container::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    background-image: linear-gradient(180deg,rgba(33, 39, 73, 0.2),#06070d 101.94%);
+
+}
+
+
+
+
+@media only screen and (min-width: 768px)  {
+    .soccer-and-warp {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .soccer-crypto {
+        width: 47%;
+        /* margin-bottom: 30px; */
+    }
+    
+    .warp {
+        width:47%;
+    }
+
+    .amendment {
+        padding-top: 30px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .hero3-container {
+        background-color: #0F1120;
+        height: auto;
+        padding: 50px 0;  
+    }
+    
+
+    .nftb-launch > h2 {
+        font-size: 4.5rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+
+    .nftb-launch > span {
+        display: block;
+        padding: 20px;
+        margin-top: 2rem;
+        color:black;
+        width: 40%;
+        text-align: center;
+        background-color: #ffffff;
+        border-radius: 30px;
+    }
+
+    .hero3 {
+        display: flex;
+        height: 100%;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+    .nftb-launch {
+        width: 50%;
+        padding: 4rem 0;
+    }
+
+
+    .soccer-and-warp {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        justify-content: space-between;
+    
+    }
+
+    .soccer-image-container {
+        width: 100%;
+        height: 50%;
+        background-image: url("https://nftb.io/static/img/pages/launchpad/ido/warp-2/cover.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+        border-radius: 1rem 1rem 0 0;
+        position: relative;
+    }
+
+    .soccer-image-container:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(180deg,rgba(33, 39, 73, 0.2),#06070d 101.94%);
+
+    }
+    .soccer-crypto {
+        width: 47%;
+    }
+
+    .warp {
+        width:47%;
+    }
+
+    .warp-image-container {
+        width: 100%;
+        height:50%;
+        background-image: url("https://nftb.io/static/img/pages/launchpad/ido/airtnt/cover.png");
+        border-radius: 1rem 1rem 0 0;
+        background-size: cover;
+        position: relative;
+    }
+
+    .warp-image-container::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left:0;
+        top:0;
+        background-image: linear-gradient(180deg,rgba(33, 39, 73, 0.2),#06070d 101.94%);
+
+    }
+
+    .second-section {
+        background-color: #000000;
+        padding: 0 20px 20px 20px;
+        border-radius: 0 0 1rem 1rem;
+        box-shadow: 2px 8px 40px rgb(251 78 255 / 20%);
+    }
+
+
+    .project-ido {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .project-ido::before {
+        content: url("https://nftb.io/static/img/icons/project-ido.svg");
+        /* width:100%;
+        height: 100%;
+        background-image: url("https://nftb.io/static/img/icons/project-ido.svg"); */
+
+    }
+
+    .ido-date-container {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+
+    .ido-date-container > span {
+        color: grey;
+    }
+    .warp-warp{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+
+    .gift-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gift-container img{
+        margin-right:5px;
+    }
+
+    .amendment {
+        padding-top: 18px;
+    }
+
+
+ /* <img src="https://nftb.io/static/img/pages/launchpad/ido/airtnt/cover.png" alt="image of space" /> */
+  
+
+}
+
+ 

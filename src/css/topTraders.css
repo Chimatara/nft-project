@@ -1,0 +1,134 @@
+/* color for traders image container  background
+linear-gradient(-40deg,#de04ff,#18d3fd); */
+.traders-container {
+    background-color: white;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.trader-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 44px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.trader-header h3 {
+    font-size: 35px;
+    font-family: 500;
+}
+
+
+.top-sellers {
+    margin-bottom: 50px;
+
+
+}
+
+.top-traders {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    justify-content: space-between;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px 18px;
+}
+ 
+
+@media only screen and (min-width: 768px) {
+
+    .traders-container {
+        background-color: white;
+        color: black;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    
+    .trader-header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 44px;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    
+    .trader-header h3 {
+        font-size: 35px;
+        font-family: 500;
+    }
+    
+    
+    .top-sellers {
+        margin-bottom: 50px;
+    
+    
+    }
+    
+    .top-traders {
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        /* padding-left: 1rem;
+        padding-right: 1rem; */
+        justify-content: space-between;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 56px 18px;
+    }
+     
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .top-traders {
+        display: flex;
+        flex-direction: row;
+        margin: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        justify-content: space-between;
+    }
+    
+    .top-sellers, .top-buyers {
+        width: 47%;
+        /* border: 2px solid red; */
+    }
+
+    .trader-header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 44px;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+
+    .rating-image {
+        margin-right: 10px;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 56px 18px;
+    }
+
+}

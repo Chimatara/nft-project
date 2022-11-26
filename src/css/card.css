@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0 3px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+
+.grid-image {
+    width: 100%;
+    object-fit: contain;
+  
+}

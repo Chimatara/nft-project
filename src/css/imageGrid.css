@@ -1,0 +1,74 @@
+.imageGrid-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.backedUp-text {
+    text-align: center;
+    margin-bottom: 0.8rem;
+}
+
+.imageGrid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 10px
+}
+
+.imageGrid div{
+    /* width: 25%; */
+    margin-bottom: 20px;
+}
+
+.imageGrid img{
+    width: 100%;
+    /* object-fit: contain; */
+}
+
+.imageGrid div:not(:first-child) {
+    margin-left: 20px;
+}
+
+@media only screen and (min-width:740px)  {
+    .imageGrid-container {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-top: 50px;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .imageGrid {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 50px;
+        margin-top: 20px;
+    }
+
+    .imageGrid div:not(:first-child) {
+        margin-left: 20px;
+    }
+
+    .imageGrid div{
+        width: 100px;
+    }
+
+    .imageGrid img{
+        width: 100%;
+        /* object-fit: contain; */
+    }
+
+    .backedUp-text {
+        text-align: center;
+    }
+
+}

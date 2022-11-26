@@ -1,0 +1,120 @@
+.footer-container {
+    background-color: #000000;   
+
+}
+
+.footer{
+   
+    color: white;
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nftb-image {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer > small {
+    display: block;
+    font-size: 15px;
+    line-height: 1.35;
+    color: grey;
+    text-align: center;
+    max-width: 570px;
+    margin: 26px auto 0;
+
+}
+
+.icons {
+    display: flex;
+    margin-top: 30px;
+}
+
+.form-container {
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.email-container > input {
+    background-color: transparent;
+    width: 450px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 0 20px 0 50px ;
+    outline: none;
+    color: rgb(157, 137, 137);
+    border: 3px solid #292e37;
+}
+
+.form-container::before {
+    content: url("https://nftb.io/static/img/icons/envelope.svg");
+    width:14px;
+    height:14px;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+} 
+
+    /* background-image: url("https://nftb.io/static/img/icons/envelope.svg"); */
+
+
+
+.footer-navbar > ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.footer-navbar > ul > li:not(:last-child) {
+    margin-right: 48px;
+}
+
+.footer-info {
+    display: flex;
+}
+
+.footer-policy {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    margin-top: 100px;
+}
+
+.footer-policy-navbar > ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 20px;
+}
+
+.footer-policy-navbar > ul > li:not(:last-child) {
+    margin-right: 24px;
+}
+
+.mode {
+    display: flex;
+}
+
+.mode .en-container {
+    display:flex;
+    align-items: center;
+}
+
+.mode-mode {
+    display: flex;
+    align-items: center;
+}
+
+.light-mode{
+    padding: 10px;
+}
+
+.dark-mode{
+    padding:10px;
+}
